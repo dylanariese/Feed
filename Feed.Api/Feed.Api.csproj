@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.20" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Feed.Business\Feed.Business.csproj" />
+    <ProjectReference Include="..\Feed.Data\Feed.Data.csproj" />
+    <ProjectReference Include="..\Feed.Infrastructure\Feed.Infrastructure.csproj" />
+  </ItemGroup>
+
+
+</Project>
